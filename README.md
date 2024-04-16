@@ -6,10 +6,10 @@ In this coding challenge, you are tasked with solving the "Russian Doll Envelope
 **Requirements** </br>
 *Programming Language*: Solutions must be implemented in Go. </br>
 *Code Style*: Readability and proper formatting are expected. </br>
-*Documentation*: Inline comments and a brief documentation on how the solution works and why certain approaches were chosen can provide insight into the thought process of the coder, which is beneficial during scoring. </br>
+*Documentation*: Inline comments and a brief documentation on how the solution works. </br>
 
 **Constraints** </br>
-*Standard Input*: The algorithm should read from standard input and not expect input from files or other sources. </br>
+*Standard Input*: The algorithm must read from standard input and not expect input from files or other sources. </br>
 *Input Format*: Input will be provided on the command line exactly in the format [[w1,h1],[w2,h2],...,[wn,hn]], where each pair [wi, hi] corresponds to the width and height of an envelope. </br>
 *Parsing Requirement*: Participants must write their code to parse this input format directly from standard input (stdin). </br>
 *Dimension Constraints*: Each envelope's width and height, wi and hi, will satisfy 1 <= wi, hi <= 10^5. </br>
