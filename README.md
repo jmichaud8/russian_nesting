@@ -1,7 +1,7 @@
 # russian_nesting
 
 **Description** </br>
-In this coding challenge, you are tasked with solving the "Russian Doll Envelopes" problem. Given a 2D array of integers, envelopes, where envelopes[i] = [wi, hi] represents the width and the height of an envelope, your goal is to determine the maximum number of envelopes you can nest inside each other. An envelope can fit into another only if both its width and height are strictly greater than those of the envelope it fits into, you cannot rotate the envelopes.
+In this coding challenge, you are tasked with solving the "Russian Doll Envelopes" problem. Given a 2D array of envelopes, where envelopes = [wi, hi] represents the width and the height of an envelope, your goal is to determine the maximum number of envelopes you can nest inside each other. An envelope can fit into another only if both its width and height are strictly greater than those of the envelope it fits into, you cannot rotate the envelopes.
 
 **Requirements** </br>
 *Programming Language*: Solutions must be implemented in Go. </br>
