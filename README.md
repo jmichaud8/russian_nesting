@@ -13,6 +13,7 @@ In this coding challenge, you are tasked with solving the "Russian Doll Envelope
 *Input Format*: Input will be provided on the command line exactly in the format [[w1,h1],[w2,h2],...,[wn,hn]], where each pair [wi, hi] corresponds to the width and height of an envelope. </br>
 *Parsing Requirement*: Participants must write their code to parse this input format directly from standard input (stdin). </br>
 *Dimension Constraints*: Each envelope's width and height, wi and hi, will satisfy 1 <= wi, hi <= 10^5. </br>
+*Array Size*: The number of wi and hi pairs (envelopes) in an input array is <= 10^5. </br>
 *No Partial or Malformed Data*: Assume that all input data will be well-formed and complete. </br>
 *No Rotation*: The dimensions must fit without any rotation, meaning both the width and height of one envelope must be strictly greater than the width and height of another envelope for it to nest inside.
 
